@@ -59,4 +59,15 @@ void main() {
   // stud.add("Bhargav");
   // stud.add("Kunj");
   // print(stud);
+
+  // Set
+
+  // var stud = {'Bhargav', 'Jay', 'Raju'};
+  // print(stud);
+
+  // map
+
+  // var fees = {'jatin': 12660, 'Nikunj': 65678};
+  // print(fees);
+  // print(fees.runtimeType);
 }
