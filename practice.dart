@@ -29,5 +29,9 @@ void main() {
   // print(++i);
   // print(i);
 
-  //
+  // conditional expression
+
+  // var is_login = false;
+  // var user = is_login ? 'bhargav' : 'jay';
+  // print(user);
 }
