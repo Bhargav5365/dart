@@ -80,8 +80,22 @@ void main() {
 
   // access map elements
 
-  var stud = {'name': 'Preet', 'City': 'Surat', 'Salary': '100'};
-  print(stud);
-  print(stud['name']);
-  print(stud['Salary']);
+  // var stud = {'name': 'Preet', 'City': 'Surat', 'Salary': '100'};
+  // print(stud);
+  // print(stud['name']);
+  // print(stud['Salary']);
+
+  //if Statment
+
+  // var is_login = true;
+  // if (is_login) {
+  //   print('Hello');
+  // }
+
+  // var is_login = false;
+  // if (is_login) {
+  //   print('welcome');
+  // } else {
+  //   print('error');
+  // }
 }
