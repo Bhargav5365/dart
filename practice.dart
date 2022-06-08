@@ -77,4 +77,11 @@ void main() {
   // stud['name'] = 'Kirit';
   // stud['city'] = 'Surat';
   // print(stud);
+
+  // access map elements
+
+  var stud = {'name': 'Preet', 'City': 'Surat', 'Salary': '100'};
+  print(stud);
+  print(stud['name']);
+  print(stud['Salary']);
 }
