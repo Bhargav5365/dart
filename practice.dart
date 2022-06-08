@@ -1,4 +1,4 @@
-void main() {
+// void main() {
 //   // variable
 //
 //   // var name = "Bhargav";
@@ -149,18 +149,18 @@ void main() {
 //   // var info = introfun('Bhargav', 'Surat');
 //   // print(info);
 
-  // Class and Object
+// Class and Object
 
-  // Car c = new Car();
-  // c.disp();
+// Car c = new Car();
+// c.disp();
 
-  // static keyword
+// static keyword
 
-  StaticMem.num = 12;
-  // initialize the static variable }
-  StaticMem.disp();
-  // invoke the static method
-}
+//   StaticMem.num = 12;
+//   // initialize the static variable }
+//   StaticMem.disp();
+//   // invoke the static method
+// }
 
 // class Car {
 //   // field
@@ -171,9 +171,9 @@ void main() {
 //     print(engine);
 //   }
 // }
-class StaticMem {
-  static int num = 12;
-  static disp() {
-    print("The value of num is ${StaticMem.num}");
-  }
-}
+// class StaticMem {
+//   static int num = 12;
+//   static disp() {
+//     print("The value of num is ${StaticMem.num}");
+//   }
+// }
