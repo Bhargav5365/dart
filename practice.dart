@@ -1,151 +1,166 @@
 void main() {
-  // variable
+//   // variable
+//
+//   // var name = "Bhargav";
+//   // var f_name = "raj";
+//   //
+//   // print(name);
+//   // print(f_name);
+//   // print(name.length);
+//   // print(name.toUpperCase());
+//   // print(name.hashCode);
+//   // print(name.isEmpty);
+//   // print(name.isNotEmpty);
+//   // print(name.runtimeType);
+//
+//   // Arithmetic operators
+//
+//   // var a = 10;
+//   // var b = 20;
+//   // print(a + b);
+//   // print(a - b);
+//   // print(a / b);
+//   // print(a * b);
+//
+//   // prefix and postfix increment and decrement
+//
+//   // var i = 3;
+//   // print(i);
+//   // print(++i);
+//   // print(i);
+//
+//   // conditional expression
+//
+//   // var is_login = false;
+//   // var user = is_login ? 'bhargav' : 'jay';
+//   // print(user);
+//
+//   // String properties and method
+//
+//   // var name = 'bhargav';
+//   // print(name.length);
+//   // print(name.toUpperCase());
+//
+//   // List
+//   // Fixed length list
+//
+//   // var list1 = new List(5);
+//   // list1[0] = 10;
+//   // list1[1] = 11;
+//   // list1[2] = 12;
+//   // list1[3] = 13;
+//   // list1[4] = 14;
+//   // print(list1);
+//   // print(list1[4]);
+//
+//   // Empty list and add() method list () constructor
+//
+//   // var stud = new List();
+//   // stud.add("Bhargav");
+//   // stud.add("Kunj");
+//   // print(stud);
+//
+//   // Set
+//
+//   // var stud = {'Bhargav', 'Jay', 'Raju'};
+//   // print(stud);
+//
+//   // map
+//
+//   // var fees = {'jatin': 12660, 'Nikunj': 65678};
+//   // print(fees);
+//   // print(fees.runtimeType);
+//
+//   // add item to map
+//
+//   // var stud = {};
+//   // stud['name'] = 'Kirit';
+//   // stud['city'] = 'Surat';
+//   // print(stud);
+//
+//   // access map elements
+//
+//   // var stud = {'name': 'Preet', 'City': 'Surat', 'Salary': '100'};
+//   // print(stud);
+//   // print(stud['name']);
+//   // print(stud['Salary']);
+//
+//   //if Statment
+//
+//   // var is_login = true;
+//   // if (is_login) {
+//   //   print('Hello');
+//   // }
+//
+//   // var is_login = false;
+//   // if (is_login) {
+//   //   print('welcome');
+//   // } else {
+//   //   print('error');
+//   // }
+//
+//   //  if....else if....else....
+//
+//   // var a = 10;
+//   // if (a == 10) {
+//   //   print('value of is $a');
+//   // } else if (a == 20) {
+//   //   print('value is $a');
+//   // } else {
+//   //   print("invalid value");
+//   // }
+//
+//   //for loop
+//
+//   // var stud = ['Bhargav', 'Preet', 'Nitesh'];
+//   // for (var i = 0; i < stud.length; i++) {
+//   //   print(stud[i]);
+//   // }
+//
+//   // while loop
+//
+//   // var stud = ['Bhargav', 'Preet', 'Jeel'];
+//   // var i = 0;
+//   // while (i < stud.length) {
+//   //   print(stud[i]);
+//   //   i++;
+//   // }
+//
+//   // For in loop with List
+//
+//   // var stud = ['Bhargav', 'Preet', 'Jeel'];
+//   // for (var stu in stud) {
+//   //   print(stu);
+//   // }
+//
+//   // For Each loop with List
+//
+//   // var stud = ['Bhargav', 'Preet', 'Kishan'];
+//   // stud.forEach((value) => print(value));
+//
+//   // Function
+//
+//   // Defining function
+//
+//   // String introfun(String name, String city) {
+//   //   return 'I am $name from $city';
+//   // }
+//   //
+//   // var info = introfun('Bhargav', 'Surat');
+//   // print(info);
 
-  // var name = "Bhargav";
-  // var f_name = "raj";
-  //
-  // print(name);
-  // print(f_name);
-  // print(name.length);
-  // print(name.toUpperCase());
-  // print(name.hashCode);
-  // print(name.isEmpty);
-  // print(name.isNotEmpty);
-  // print(name.runtimeType);
+  // Class and Object
 
-  // Arithmetic operators
+  Car c = new Car();
+  c.disp();
+}
 
-  // var a = 10;
-  // var b = 20;
-  // print(a + b);
-  // print(a - b);
-  // print(a / b);
-  // print(a * b);
+class Car {
+  // field
+  String engine = "E1101";
 
-  // prefix and postfix increment and decrement
-
-  // var i = 3;
-  // print(i);
-  // print(++i);
-  // print(i);
-
-  // conditional expression
-
-  // var is_login = false;
-  // var user = is_login ? 'bhargav' : 'jay';
-  // print(user);
-
-  // String properties and method
-
-  // var name = 'bhargav';
-  // print(name.length);
-  // print(name.toUpperCase());
-
-  // List
-  // Fixed length list
-
-  // var list1 = new List(5);
-  // list1[0] = 10;
-  // list1[1] = 11;
-  // list1[2] = 12;
-  // list1[3] = 13;
-  // list1[4] = 14;
-  // print(list1);
-  // print(list1[4]);
-
-  // Empty list and add() method list () constructor
-
-  // var stud = new List();
-  // stud.add("Bhargav");
-  // stud.add("Kunj");
-  // print(stud);
-
-  // Set
-
-  // var stud = {'Bhargav', 'Jay', 'Raju'};
-  // print(stud);
-
-  // map
-
-  // var fees = {'jatin': 12660, 'Nikunj': 65678};
-  // print(fees);
-  // print(fees.runtimeType);
-
-  // add item to map
-
-  // var stud = {};
-  // stud['name'] = 'Kirit';
-  // stud['city'] = 'Surat';
-  // print(stud);
-
-  // access map elements
-
-  // var stud = {'name': 'Preet', 'City': 'Surat', 'Salary': '100'};
-  // print(stud);
-  // print(stud['name']);
-  // print(stud['Salary']);
-
-  //if Statment
-
-  // var is_login = true;
-  // if (is_login) {
-  //   print('Hello');
-  // }
-
-  // var is_login = false;
-  // if (is_login) {
-  //   print('welcome');
-  // } else {
-  //   print('error');
-  // }
-
-  //  if....else if....else....
-
-  // var a = 10;
-  // if (a == 10) {
-  //   print('value of is $a');
-  // } else if (a == 20) {
-  //   print('value is $a');
-  // } else {
-  //   print("invalid value");
-  // }
-
-  //for loop
-
-  // var stud = ['Bhargav', 'Preet', 'Nitesh'];
-  // for (var i = 0; i < stud.length; i++) {
-  //   print(stud[i]);
-  // }
-
-  // while loop
-
-  // var stud = ['Bhargav', 'Preet', 'Jeel'];
-  // var i = 0;
-  // while (i < stud.length) {
-  //   print(stud[i]);
-  //   i++;
-  // }
-
-  // For in loop with List
-
-  // var stud = ['Bhargav', 'Preet', 'Jeel'];
-  // for (var stu in stud) {
-  //   print(stu);
-  // }
-
-  // For Each loop with List
-
-  // var stud = ['Bhargav', 'Preet', 'Kishan'];
-  // stud.forEach((value) => print(value));
-
-  // Function
-
-  // Defining function
-
-  String introfun(String name, String city) {
-    return 'I am $name from $city';
+  // function
+  void disp() {
+    print(engine);
   }
-
-  var info = introfun('Bhargav', 'Surat');
-  print(info);
 }
