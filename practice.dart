@@ -40,4 +40,23 @@ void main() {
   // var name = 'bhargav';
   // print(name.length);
   // print(name.toUpperCase());
+
+  // List
+  // Fixed length list
+
+  // var list1 = new List(5);
+  // list1[0] = 10;
+  // list1[1] = 11;
+  // list1[2] = 12;
+  // list1[3] = 13;
+  // list1[4] = 14;
+  // print(list1);
+  // print(list1[4]);
+
+  // Empty list and add() method list () constructor
+
+  // var stud = new List();
+  // stud.add("Bhargav");
+  // stud.add("Kunj");
+  // print(stud);
 }
