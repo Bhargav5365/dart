@@ -24,10 +24,48 @@
 // }
 
 // ## Multi-Level Inheritance
+// void main() {
+//   var obj = GrandSon();
+//   obj.getValue(1000);
+//   obj.disp();
+// }
+//
+// // Parent Class
+// class Father {
+//   late int money;
+//   getValue(m) {
+//     money = m;
+//   }
+// }
+//
+// // Child Class
+// class Son extends Father {
+//   String car = "i 10";
+//   int bank_balance = 5000;
+//   totalMoney() {
+//     return money + bank_balance;
+//   }
+// }
+//
+// // GrandChild Class
+// class GrandSon extends Son {
+//   String bike = "K6";
+//   disp() {
+//     print(bike);
+//     print(car);
+//     print(totalMoney());
+//   }
+// }
+
+// ## Hierarchical Inheritance
 void main() {
-  var obj = GrandSon();
-  obj.getValue(1000);
-  obj.disp();
+  var s_obj = Son();
+  s_obj.getValue(1000);
+  s_obj.disp();
+
+  var d_obj = Daughter();
+  d_obj.getValue(30000);
+  d_obj.disp();
 }
 
 // Parent Class
@@ -40,19 +78,18 @@ class Father {
 
 // Child Class
 class Son extends Father {
-  String car = "i 10";
-  int bank_balance = 5000;
-  totalMoney() {
-    return money + bank_balance;
+  String car = 'i 10';
+  disp() {
+    print(car);
+    print(money);
   }
 }
 
-// GrandChild Class
-class GrandSon extends Son {
-  String bike = "K6";
+// Child Class
+class Daughter extends Father {
+  String bike = 'K6';
   disp() {
     print(bike);
-    print(car);
-    print(totalMoney());
+    print(money);
   }
 }
