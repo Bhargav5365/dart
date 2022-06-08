@@ -109,4 +109,11 @@ void main() {
   // } else {
   //   print("invalid value");
   // }
+
+  //for loop
+
+  // var stud = ['Bhargav', 'Preet', 'Nitesh'];
+  // for (var i = 0; i < stud.length; i++) {
+  //   print(stud[i]);
+  // }
 }
