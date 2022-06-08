@@ -34,4 +34,10 @@ void main() {
   // var is_login = false;
   // var user = is_login ? 'bhargav' : 'jay';
   // print(user);
+
+  // String properties and method
+
+  // var name = 'bhargav';
+  // print(name.length);
+  // print(name.toUpperCase());
 }
