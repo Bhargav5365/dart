@@ -125,4 +125,16 @@ void main() {
   //   print(stud[i]);
   //   i++;
   // }
+
+  // For in loop with List
+
+  // var stud = ['Bhargav', 'Preet', 'Jeel'];
+  // for (var stu in stud) {
+  //   print(stu);
+  // }
+
+  // For Each loop with List
+
+  // var stud = ['Bhargav', 'Preet', 'Kishan'];
+  // stud.forEach((value) => print(value));
 }
