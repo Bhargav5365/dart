@@ -24,8 +24,10 @@ void main() {
 
   // prefix and postfix increment and decrement
 
-  var i = 3;
-  print(i);
-  print(++i);
-  print(i);
+  // var i = 3;
+  // print(i);
+  // print(++i);
+  // print(i);
+
+  //
 }
