@@ -137,4 +137,15 @@ void main() {
 
   // var stud = ['Bhargav', 'Preet', 'Kishan'];
   // stud.forEach((value) => print(value));
+
+  // Function
+
+  // Defining function
+
+  String introfun(String name, String city) {
+    return 'I am $name from $city';
+  }
+
+  var info = introfun('Bhargav', 'Surat');
+  print(info);
 }
