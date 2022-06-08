@@ -98,4 +98,15 @@ void main() {
   // } else {
   //   print('error');
   // }
+
+  //  if....else if....else....
+
+  // var a = 10;
+  // if (a == 10) {
+  //   print('value of is $a');
+  // } else if (a == 20) {
+  //   print('value is $a');
+  // } else {
+  //   print("invalid value");
+  // }
 }
