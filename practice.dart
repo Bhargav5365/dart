@@ -70,4 +70,11 @@ void main() {
   // var fees = {'jatin': 12660, 'Nikunj': 65678};
   // print(fees);
   // print(fees.runtimeType);
+
+  // add item to map
+
+  // var stud = {};
+  // stud['name'] = 'Kirit';
+  // stud['city'] = 'Surat';
+  // print(stud);
 }
