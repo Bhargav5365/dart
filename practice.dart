@@ -116,4 +116,13 @@ void main() {
   // for (var i = 0; i < stud.length; i++) {
   //   print(stud[i]);
   // }
+
+  // while loop
+
+  // var stud = ['Bhargav', 'Preet', 'Jeel'];
+  // var i = 0;
+  // while (i < stud.length) {
+  //   print(stud[i]);
+  //   i++;
+  // }
 }
