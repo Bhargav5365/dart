@@ -21,4 +21,11 @@ void main() {
   // print(a - b);
   // print(a / b);
   // print(a * b);
+
+  // prefix and postfix increment and decrement
+
+  var i = 3;
+  print(i);
+  print(++i);
+  print(i);
 }
