@@ -119,14 +119,37 @@
 
 // Static methods
 
-class Car {
-  static String? name;
-  static display() {
-    print("The car name is ${Car.name}");
-  }
-}
+// class Car {
+//   static String? name;
+//   static display() {
+//     print("The car name is ${Car.name}");
+//   }
+// }
+//
+// void main() {
+//   Car.name = 'Toyota';
+//   Car.display();
+// }
+
+//  Static methods
+
+import 'dart:math';
 
 void main() {
-  Car.name = 'Toyota';
-  Car.display();
+  var a = Point(2, 2);
+  var b = Point(4, 4);
+  var distance = Point.distanceBetween(a, b);
+  assert(2.8 < distance && distance < 2.9);
+  print(distance);
+}
+
+class Point {
+  double x, y;
+  Point(this.x, this.y);
+
+  static double distanceBetween(Point a, Point b) {
+    var dx = a.x - b.x;
+    var dy = a.y - b.y;
+    return sqrt(dx * dx + dy * dy);
+  }
 }
