@@ -56,3 +56,43 @@
 //     print('in Employee');
 //   }
 // }
+// import 'dart:math';
+//
+// void main() {
+//   var p = Point(2, 3);
+//   print(p.distanceFromOrigin);
+// }
+//
+// class Point {
+//   final double x;
+//   final double y;
+//   final double distanceFromOrigin;
+//
+//   Point(double x, double y)
+//       : x = x,
+//         y = y,
+//         distanceFromOrigin = sqrt(x * x + y * y);
+// }
+
+void main() {
+  Boy b = new Boy();
+  Girl g = new Girl();
+  b.displayInfo();
+  g.displayInfo();
+}
+
+abstract class Person {
+  void displayInfo();
+}
+
+class Boy extends Person {
+  void displayInfo() {
+    print("My name is Nihar");
+  }
+}
+
+class Girl extends Person {
+  void displayInfo() {
+    print("My name is Grecia");
+  }
+}
