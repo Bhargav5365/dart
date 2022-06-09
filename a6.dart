@@ -1,7 +1,58 @@
-String say(String from, String msg, [String? device]) {
-  var result = '$from says $msg';
-  if (device != null) {
-    result = '$result with a $device';
-  }
-  return result;
-}
+// void main() {
+//   const list = ['Nikunj', 'Nitesh', 'Nitin', 'Paresh'];
+//   list.forEach((item) {
+//     print('${list.indexOf(item)}: $item');
+//   });
+// }
+
+// void main() {
+//   var candidates;
+//   for (int i = 0; i < candidates.length; i++) {
+//     var candidate = candidates[i];
+//     if (candidate.yearsExperience < 5) {
+//       continue;
+//     }
+//     candidate.interview();
+//   }
+// }
+
+// Class and Object
+
+// void main() {
+//   car c = new car();
+//   c.display();
+// }
+//
+// class car {
+//   String engine = "Bhargav";
+//   void display() {
+//     print(engine);
+//   }
+// }
+
+// Constructor Syntax
+
+// class_name(parameter){
+//   Constructor body
+// }
+// class_name.Constructor_name(parameter){
+//
+// }
+
+// void main() {
+//   var employee = Employee.fromJson({});
+//   print(employee);
+// }
+//
+// class Person {
+//   String? firstName;
+//   Person.fromJson(Map data) {
+//     print('in Person');
+//   }
+// }
+//
+// class Employee extends Person {
+//   Employee.fromJson(data) : super.fromJson(data) {
+//     print('in Employee');
+//   }
+// }
