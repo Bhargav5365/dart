@@ -99,20 +99,34 @@
 
 // Implicit interfaces
 
+// void main() {
+//   print(greetBob(Person('Bhargav')));
+//   print(greetBob(Imposter()));
+// }
+//
+// class Person {
+//   final String _name;
+//   Person(this._name);
+//   String greet(String who) => 'Hello, $who. I am $_name.';
+// }
+//
+// class Imposter implements Person {
+//   String get _name => '';
+//   String greet(String who) => 'Hi $who. Do you know who I am?';
+// }
+//
+// String greetBob(Person person) => person.greet('Bob');
+
+// Static methods
+
+class Car {
+  static String? name;
+  static display() {
+    print("The car name is ${Car.name}");
+  }
+}
+
 void main() {
-  print(greetBob(Person('Bhargav')));
-  print(greetBob(Imposter()));
+  Car.name = 'Toyota';
+  Car.display();
 }
-
-class Person {
-  final String _name;
-  Person(this._name);
-  String greet(String who) => 'Hello, $who. I am $_name.';
-}
-
-class Imposter implements Person {
-  String get _name => '';
-  String greet(String who) => 'Hi $who. Do you know who I am?';
-}
-
-String greetBob(Person person) => person.greet('Bob');
