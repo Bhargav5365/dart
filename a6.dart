@@ -74,25 +74,45 @@
 //         distanceFromOrigin = sqrt(x * x + y * y);
 // }
 
+// void main() {
+//   Boy b = new Boy();
+//   Girl g = new Girl();
+//   b.displayInfo();
+//   g.displayInfo();
+// }
+//
+// abstract class Person {
+//   void displayInfo();
+// }
+//
+// class Boy extends Person {
+//   void displayInfo() {
+//     print("My name is Nihar");
+//   }
+// }
+//
+// class Girl extends Person {
+//   void displayInfo() {
+//     print("My name is Grecia");
+//   }
+// }
+
+// Implicit interfaces
+
 void main() {
-  Boy b = new Boy();
-  Girl g = new Girl();
-  b.displayInfo();
-  g.displayInfo();
+  print(greetBob(Person('Bhargav')));
+  print(greetBob(Imposter()));
 }
 
-abstract class Person {
-  void displayInfo();
+class Person {
+  final String _name;
+  Person(this._name);
+  String greet(String who) => 'Hello, $who. I am $_name.';
 }
 
-class Boy extends Person {
-  void displayInfo() {
-    print("My name is Nihar");
-  }
+class Imposter implements Person {
+  String get _name => '';
+  String greet(String who) => 'Hi $who. Do you know who I am?';
 }
 
-class Girl extends Person {
-  void displayInfo() {
-    print("My name is Grecia");
-  }
-}
+String greetBob(Person person) => person.greet('Bob');
